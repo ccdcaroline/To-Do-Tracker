@@ -34,9 +34,16 @@
 
 ## Date: April 30, 2026 
 
-**What I asked AI to do:** 
+**What I asked AI to do:** I asked AI to help me make the polished final version of my to-do list app. I wanted it to look more finished and include adding tasks, completing tasks, deleting tasks, filtering tasks, clearing completed tasks, and saving the list.
 
 **What I didn't understand from the generated code:** 
+- I didn’t fully understand how localStorage saves the tasks after refreshing the page
+- I was confused by JSON.stringify() and JSON.parse()
+- I didn’t fully understand why the app has to call saveTasks() after deleting or checking off a task 
 
 **What I learned:** 
-
+- I learned how to save tasks in the browser using localStorage
+- I learned that JSON.stringify() turns the task list into something that can be saved
+- I learned that JSON.parse() turns the saved data back into an array
+- I learned how to filter tasks by all, not completed, and completed
+- I learned how to clear only the completed tasks
