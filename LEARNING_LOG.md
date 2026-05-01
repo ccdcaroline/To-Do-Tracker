@@ -15,11 +15,22 @@
 
 ## Date: April 30, 2026 
 
-**What I asked AI to do:** 
+**What I asked AI to do:** I asked AI to help me make the next version of my to-do list app with more core features. I wanted the app to still add, complete, and delete tasks, but also include filters so the user can view all tasks, only not completed tasks, or completed tasks.
 
 **What I didn't understand from the generated code:** 
+- I didn’t fully understand how the filter buttons connect to the JavaScript
+- I was confused by data-filter="all" and how that stores information in the button
+- I didn’t understand how the active class changes which filter button is highlighted
+- I understood the HTML and CSS more than how the filtering logic would work in JavaScript
 
 **What I learned:** 
+- I learned how a to-do list can have different views instead of showing every task all the time
+- I learned that buttons can store extra information using data-filter
+- I learned how CSS classes like active can show which filter is currently selected
+- I learned how the layout can be organized with a toolbar for the count and filter buttons
+- I learned that JavaScript is needed to make the filters actually change what appears on the page
+
+
 
 ## Date: April 30, 2026 
 
